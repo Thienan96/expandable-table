@@ -1,0 +1,64 @@
+table {
+    position: relative;
+    z-index: 100;
+}
+
+tr.detail-row {
+    height: 0;
+}
+
+.element-row td {
+    border-bottom-width: 0;
+    height: inherit;
+}
+
+.element-detail {
+    overflow: hidden;
+    width: calc(100vw - 52px); // 53: padding left + padding rignt (16 + 10)
+}
+
+.expanded-row {
+    background: whitesmoke;
+}
+
+.mat-column-PlannedDate-Resource,
+.mat-column-expandedDetail {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.mat-column-PlannedDate-Resource,
+.mat-column-PlannedStartTime-PlannedEndTime {
+    width: 150px;
+}
+
+.mat-column-Action {
+    width: 40px;
+}
+
+.mat-column-Status {
+    width: 20%;
+}
+
+.mark-as-error {
+    background: #f44336;
+    width: 3px;
+    height: 100%;
+    margin-right: 3px;
+}
+
+.hidden-action {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    background: #0000001f;
+}
+
+.mat-column-swipeAction {
+    z-index: 0;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.transform-0 {
+    transform: translateX(0px);
+}
