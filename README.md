@@ -1,6 +1,7 @@
 
 This is a real module i'm using in my project
-It can not work right because it have some internal library, It just using for showing code skill
+It can not work right now because it need some internal library. It just use for showing code skill
+
 Core activities
 
 _ Add/delete record
